@@ -1,0 +1,1093 @@
+Date: Sat, 23 Aug 2025 12:11:49 +0000 (UTC)
+Message-ID: <1180528078.5.1755951109038@6a3f5d0e20c3>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_1592867373.1755951109038"
+
+------=_Part_4_1592867373.1755951109038
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Cost Analysis - Third Party vs In house</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Cost Analysis - Third Party vs In house</h1>
+    <div class=3D"Section1">
+        <p>Please note, all costs were taking directly from the websites pr=
+icing plans, and converted to GBP.</p>
+<p>Page Navigation:</p>
+<p>This is a large document as I wanted to explore different providers and =
+use this for a summary. If you wish to see a quick summary of the costs, an=
+d a conclusion of the most financially viable options please navigate strai=
+ght to the Summary of Estimated Costs - all items here and through to the e=
+nd of the document summarise this.</p>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1755951108941 {padding: 0px;}
+div.rbtoc1755951108941 ul {list-style: none;margin-left: 0px;padding-left: =
+;}
+div.rbtoc1755951108941 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1755951108941">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-1.Notifications">1. Notifi=
+cations</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-a.Twilio(SMS)">a. Twilio (=
+SMS)</a></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-b.SendGrid(Email)">b. Send=
+Grid (Email)</a></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-c.FirebaseCloudMessaging(F=
+CM)">c. Firebase Cloud Messaging (FCM)</a></li>
+</ul></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-2.Payments">2. Payments</a=
+>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-a.Stripe">a. Stripe</a></l=
+i>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-b.PayPal">b. PayPal</a></l=
+i>
+</ul></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-3.DataReportingandVisualis=
+ation">3. Data Reporting and Visualisation</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-a.GoogleAnalytics4(GA4)">a=
+. Google Analytics 4 (GA4)</a></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-b.Mixpanel">b. Mixpanel</a=
+></li>
+</ul></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-4.SummaryofEstimatedCosts"=
+>4. Summary of Estimated Costs</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-ThirdPartyvsInhouseCosts">=
+Third Party vs Inhouse Costs</a></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-CostAnalysis(5years)">Cost=
+ Analysis (5 years)</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-Payments">Payments</a></li=
+>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-Notifications">Notificatio=
+ns</a></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-DataExtractionandReporting=
+">Data Extraction and Reporting</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-5.Conclusion">5. Conclusio=
+n</a></li>
+<li><a href=3D"#CostAnalysis-ThirdPartyvsInhouse-6.NewSection:Translation">=
+6. New Section: Translation</a></li>
+</ul>
+</div>
+<h1 id=3D"CostAnalysis-ThirdPartyvsInhouse-1.Notifications">1. Notification=
+s</h1>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-a.Twilio(SMS)">a. Twilio (SMS)</=
+h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong></p>
+<ul>
+<li>
+<p>For 55,000 SMS messages:</p>
+<ul>
+<li>
+<p>First 25,000 @ =C2=A30.0409/SMS =3D =C2=A31,022.50</p></li>
+<li>
+<p>Next 30,000 @ =C2=A30.0401/SMS =3D =C2=A31,203.00</p></li>
+</ul></li>
+<li>
+<p><strong>Total Estimated Annual SMS Cost:</strong> <strong>=C2=A32,225.50=
+</strong></p></li>
+</ul></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> Twilio's pricing is tiered=
+, offering discounts at higher volumes. It is scalable, designed to handle =
+millions of messages. Custom pricing is available for larger volumes.</p></=
+li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Robust and reliable for SMS delivery.</p></li>
+<li>
+<p>Comprehensive APIs for integrating various communication channels (SMS, =
+voice, WhatsApp).</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Can become expensive at very high volumes.</p></li>
+<li>
+<p>Requires development effort to integrate and manage messaging logic.</p>=
+</li>
+</ul></li>
+</ul>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-b.SendGrid(Email)">b. SendGrid (=
+Email)</h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong></p>
+<ul>
+<li>
+<p>For 55,000 emails/month, the plan for 50,000-100,000 emails/month is =C2=
+=A315.56/month.</p></li>
+<li>
+<p><strong>Total Estimated Annual Email Cost:</strong> =C2=A315.56/month * =
+12 months =3D =C2=A3186.72</p></li>
+</ul></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> SendGrid offers tiered pla=
+ns with fixed monthly costs up to a certain email volume. It is highly scal=
+able and designed for transactional and marketing emails. Annual billing ca=
+n provide savings.</p></li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Strong email deliverability rates, crucial for confirmations and reminde=
+rs.</p></li>
+<li>
+<p>Features like email analytics, templates, and bounce handling.</p></li>
+<li>
+<p>Easy integration with well-documented APIs.</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Costs increase significantly if monthly email volume exceeds plan limits=
+.</p></li>
+<li>
+<p>Primarily focused on email; separate services needed for SMS/other chann=
+els (though part of Twilio system so can be used in conjunction).</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-c.FirebaseCloudMessaging(FCM)">c=
+. Firebase Cloud Messaging (FCM)</h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong> <strong>=C2=A30 (Free)</strong> =
+for core push notification services. (10 SMS a day for free but this is not=
+ suitable for our software.)</p></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> FCM is free for sending pu=
+sh notifications. Costs arise if signed up to plan. It is scalable, leverag=
+ing Google's infrastructure.</p></li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Completely free for core functionality, ideal for mobile/web app push no=
+tifications.</p></li>
+<li>
+<p>Reliable and highly scalable.</p></li>
+<li>
+<p>Easy integration for Firebase-enabled apps.</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Limited free functionality to push notifications and 10 SMS a day.</p></=
+li>
+<li>
+<p>Primarily aimed at app development, may require more effort for web-only=
+ or email-centric notification needs.</p></li>
+</ul></li>
+</ul>
+<h1 id=3D"CostAnalysis-ThirdPartyvsInhouse-2.Payments">2. Payments</h1>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-a.Stripe">a. Stripe</h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost (Card Transactions):</strong></p>
+<ul>
+<li>
+<p>Using assumed =C2=A3300,000 annual volume and 6,000 transactions, with a=
+n estimated split (80% Standard UK, 10% Premium UK, 5% European Economic Ar=
+ea, 5% International non-EEA):</p>
+<ul>
+<li>
+<p>Standard UK: 1.5% + 20p per transaction. For 4,800 transactions, =C2=A32=
+40,000 volume: (=C2=A3240,000 * 0.015) + (4,800 * =C2=A30.20) =3D =C2=A33,6=
+00 + =C2=A3960 =3D =C2=A34,560</p></li>
+<li>
+<p>Premium UK: 1.9% + 20p per transaction. For 600 transactions, =C2=A330,0=
+00 volume: (=C2=A330,000 * 0.019) + (600 * =C2=A30.20) =3D =C2=A3570 + =C2=
+=A3120 =3D =C2=A3690</p></li>
+<li>
+<p>European Economic Area (EEA): 2.5% + 20p per transaction. For 300 transa=
+ctions, =C2=A315,000 volume: (=C2=A315,000 * 0.025) + (300 * =C2=A30.20) =
+=3D =C2=A3375 + =C2=A360 =3D =C2=A3435</p></li>
+<li>
+<p>International (non-EEA): 3.25% + 20p per transaction. For 300 transactio=
+ns, =C2=A315,000 volume: (=C2=A315,000 * 0.0325) + (300 * =C2=A30.20) =3D =
+=C2=A3487.50 + =C2=A360 =3D =C2=A3547.50</p></li>
+</ul></li>
+<li>
+<p><strong>Total Estimated Annual Stripe Cost:</strong> <strong>=C2=A36,232=
+.50</strong> (for card transactions)</p></li>
+</ul></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> Stripe's rates are general=
+ly fixed per transaction volume and type, with potential for custom enterpr=
+ise pricing at very high volumes. It's highly scalable and can handle large=
+ transaction loads.</p></li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Developer-friendly APIs and excellent documentation.</p></li>
+<li>
+<p>Supports a wide range of payment methods globally.</p></li>
+<li>
+<p>Robust fraud detection tools and built-in compliance.</p></li>
+<li>
+<p>Good for recurring payments (e.g., membership/subscriptions).</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Transaction fees can add up as volume grows.</p></li>
+<li>
+<p>Some advanced features (e.g., more complex fraud rules) might require cu=
+stom setup.</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-b.PayPal">b. PayPal</h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong></p>
+<ul>
+<li>
+<p>1.2% + fixed fee. For EEA, the fixed fee is 1.29%. This totals 2.49%.</p=
+></li>
+<li>
+<p>Cost for =C2=A3300,000 volume: =C2=A3300,000 * 0.0249 =3D =C2=A37,470</p=
+></li>
+</ul></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> PayPal's standard rates ar=
+e generally fixed percentages. Volume discounts may be available for higher=
+ processing amounts, but less transparent than Stripe. It's a highly scalab=
+le platform.</p></li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Widely recognised and trusted by consumers globally.</p></li>
+<li>
+<p>Supports various alternative payment methods (APMs).</p></li>
+<li>
+<p>Simple integration for basic PayPal checkout.</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Standard percentage fees can be slightly higher than some competitors fo=
+r basic card processing.</p></li>
+<li>
+<p>Can have more complex fee structures for different transaction types.</p=
+></li>
+<li>
+<p>Redirection away from your site for some payment flows.</p></li>
+</ul></li>
+</ul>
+<h1 id=3D"CostAnalysis-ThirdPartyvsInhouse-3.DataReportingandVisualisation"=
+>3. Data Reporting and Visualisation</h1>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-a.GoogleAnalytics4(GA4)">a. Goog=
+le Analytics 4 (GA4)</h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong> <strong>=C2=A30 (Free Tier)</str=
+ong></p></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> The standard GA4 service i=
+s free and highly scalable for most common use cases, handling significant =
+event volumes. GA360, the paid enterprise version, is for extremely large o=
+rganisations with much higher event limits, deeper integrations, and dedica=
+ted support.</p></li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Completely free for most users, making it highly cost-effective for init=
+ial stages.</p></li>
+<li>
+<p>Powerful web and app analytics capabilities.</p></li>
+<li>
+<p>Excellent integration with other Google services (e.g., Google Ads).</p>=
+</li>
+<li>
+<p>Focus on event-based data model, which aligns well with interactive even=
+t platforms.</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Data retention is limited to 14 months in the free version.</p></li>
+<li>
+<p>Data sampling can occur at high query volumes.</p></li>
+<li>
+<p>Requires some learning curve for setting up events and custom reports.</=
+p></li>
+</ul></li>
+</ul>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-b.Mixpanel">b. Mixpanel</h2>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong></p>
+<ul>
+<li>
+<p>For 1.5 million events per year (estimated usage):</p>
+<ul>
+<li>
+<p>Monthly price: =C2=A3109.20.</p></li>
+<li>
+<p>Annual Price (before discount): =C2=A3109.20 * 12 =3D =C2=A31,310.40</p>=
+</li>
+<li>
+<p>Savings with annual billing: =C2=A3374.40.</p></li>
+<li>
+<p><strong>Total Estimated Annual Cost (with discount):</strong> <strong>=
+=C2=A3936.00</strong></p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Discounts &amp; Scalability:</strong> Mixpanel's pricing scales =
+with the number of events tracked, with decreasing per-event rates at highe=
+r volumes and savings for annual billing. It is built for scalability and h=
+andling large volumes of user behaviour data.</p></li>
+<li>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>
+<p>Deep product analytics capabilities, excellent for understanding user be=
+haviour and engagement within the event system.</p></li>
+<li>
+<p>Powerful segmentation, funnels, and retention analysis tools.</p></li>
+<li>
+<p>User-friendly dashboards and reporting.</p></li>
+</ul></li>
+<li>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>
+<p>Costs can increase significantly with very high event volumes.</p></li>
+<li>
+<p>Requires careful planning of event taxonomy to maximize value.</p></li>
+<li>
+<p>May require integration of client-side SDKs.</p></li>
+</ul></li>
+</ul>
+<p></p>
+<p><strong>In-House Cost Estimation and Comparison</strong></p>
+<p>The average Software Developer salary in the UK is <strong>=C2=A353,720 =
+per year (According to ReedUK, July 2025)</strong>. This figure is used as =
+the primary cost driver for in-house development effort. These estimates as=
+sume dedicated developer time for initial build and ongoing maintenance. Pl=
+ease see Table 1, it is expected that we would require 1-2 developers so it=
+ could potentially cost =C2=A3100,000 for the initial year setup.</p>
+<p><strong>General In-House Cost Components:</strong></p>
+<ul>
+<li>
+<p><strong>Development Effort:</strong> Developer salaries for initial buil=
+d (design, coding, testing, deployment).</p></li>
+<li>
+<p><strong>Ongoing Maintenance:</strong> Bug fixes, security patches, featu=
+re enhancements, monitoring.</p></li>
+<li>
+<p><strong>Infrastructure:</strong> Servers, databases, hosting, networking=
+, backup, recovery.</p></li>
+<li>
+<p><strong>Software Licenses:</strong> OS, database licenses, specific deve=
+lopment tools, Power BI licenses for users.</p></li>
+<li>
+<p><strong>Security &amp; Compliance:</strong> Time for audits, certificati=
+ons (e.g., PCI DSS for payments), and implementing security best practices.=
+</p></li>
+</ul>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"6b=
+60d570-4b25-4683-be10-e33214ba2faa" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>Use Case</p></td>
+<td class=3D"confluenceTd">
+<p>Initial Build Effort (Months)</p></td>
+<td class=3D"confluenceTd">
+<p>Initial Build Cost (Year 1)</p></td>
+<td class=3D"confluenceTd">
+<p>Ongoing Annual Maintenance (Months)</p></td>
+<td class=3D"confluenceTd">
+<p>Ongoing Annual Maintenance Cost</p></td>
+<td class=3D"confluenceTd">
+<p>Total Year 1 Cost (Estimated)</p></td>
+<td class=3D"confluenceTd">
+<p>Total Subsequent Years Cost (Estimated)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Payments</p></td>
+<td class=3D"confluenceTd">
+<p>6-9</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A326,860 - =C2=A340,290</p></td>
+<td class=3D"confluenceTd">
+<p>2-3</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A38,953 - =C2=A313,430</p></td>
+<td class=3D"confluenceTd">
+<p><strong>=C2=A340,813 - =C2=A373,720</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=C2=A313,953 - =C2=A333,430</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Notifications</p></td>
+<td class=3D"confluenceTd">
+<p>2-3</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A38,953 - =C2=A313,430</p></td>
+<td class=3D"confluenceTd">
+<p>0.5-1</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A32,238 - =C2=A34,477</p></td>
+<td class=3D"confluenceTd">
+<p><strong>=C2=A312,191 - =C2=A322,907</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=C2=A33,238 - =C2=A39,477</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Data Reporting</p></td>
+<td class=3D"confluenceTd">
+<p>4-7</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A317,907 - =C2=A331,337</p></td>
+<td class=3D"confluenceTd">
+<p>1-2</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A34,477 - =C2=A38,953</p></td>
+<td class=3D"confluenceTd">
+<p><strong>=C2=A324,384 - =C2=A350,290</strong></p></td>
+<td class=3D"confluenceTd">
+<p><strong>=C2=A36,477 - =C2=A318,953</strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Table 1 Costs and Time (Months) of expected In-House Developer. Please n=
+ote that it is advised we would require 1-2 SW Developers. Please note that=
+ these costs are estimated based on the salary and the total estimated mont=
+hs of work.</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<h1 id=3D"CostAnalysis-ThirdPartyvsInhouse-4.SummaryofEstimatedCosts">4. Su=
+mmary of Estimated Costs</h1>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-ThirdPartyvsInhouseCosts">Third =
+Party vs Inhouse Costs</h2>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"d0=
+b57572-193d-4b58-ab43-175f129ba1f9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>Use Case</p></td>
+<td class=3D"confluenceTd">
+<p>Third-Party Provider (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>Annual In-House Development (Year 1)</p></td>
+<td class=3D"confluenceTd">
+<p>Annual In-House Development (Subsequent Years)</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Payments</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 (Stripe) / =C2=A37,470 (PayPal)</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A340,813 - =C2=A373,720</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A313,953 - =C2=A333,430</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Notifications</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 (SendGrid) / =C2=A32,225.50 (Twilio)</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A312,191 - =C2=A322,907</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A33,238 - =C2=A39,477</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Data Reporting</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 (GA4) / =C2=A3936.00 (Mixpanel)</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A324,384 - =C2=A350,290</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,477 - =C2=A318,953</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h2 id=3D"CostAnalysis-ThirdPartyvsInhouse-CostAnalysis(5years)">Cost Analy=
+sis (5 years)</h2>
+<h3 id=3D"CostAnalysis-ThirdPartyvsInhouse-Payments">Payments</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2f=
+91655a-1f96-464b-8b7f-1fc4468a790f" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>Year</p></td>
+<td class=3D"confluenceTd">
+<p>Third-Party Cost (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>In-House Cost (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>Cumulative Third-Party Cost</p></td>
+<td class=3D"confluenceTd">
+<p>Cumulative In-House Cost</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 - =C2=A37,470</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A340,813 - =C2=A373,720</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 - =C2=A37,470</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A340,813 - =C2=A373,720</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 - =C2=A37,470</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A313,953 - =C2=A333,430</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A312,465 - =C2=A314,940</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A354,766 - =C2=A3107,150</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 - =C2=A37,470</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A313,953 - =C2=A333,430</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A318,697.50 - =C2=A322,410</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A368,719 - =C2=A3140,580</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 - =C2=A37,470</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A313,953 - =C2=A333,430</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A324,930 - =C2=A329,880</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A382,672 - =C2=A3174,010</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,232.50 - =C2=A37,470</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A313,953 - =C2=A333,430</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A331,162.50 - =C2=A337,350</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A396,625 - =C2=A3207,440</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h3 id=3D"CostAnalysis-ThirdPartyvsInhouse-Notifications">Notifications</h3=
+>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a2=
+df6ca4-dbd0-4c23-a554-2644aa6b932d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>Year</p></td>
+<td class=3D"confluenceTd">
+<p>Third-Party Cost (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>In-House Cost (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>Cumulative Third-Party Cost</p></td>
+<td class=3D"confluenceTd">
+<p>Cumulative In-House Cost</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 - =C2=A32,225.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A312,191 - =C2=A322,907</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 - =C2=A32,225.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A312,191 - =C2=A322,907</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 - =C2=A32,225.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A33,238 - =C2=A39,477</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3373.44 - =C2=A34,451</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A315,429 - =C2=A332,384</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 - =C2=A32,225.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A33,238 - =C2=A39,477</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3560.16 - =C2=A36,676.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A318,667 - =C2=A341,861</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 - =C2=A32,225.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A33,238 - =C2=A39,477</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3746.88 - =C2=A38,902</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A321,905 - =C2=A351,338</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3186.72 - =C2=A32,225.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A33,238 - =C2=A39,477</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A3933.60 - =C2=A311,127.50</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A325,143 - =C2=A360,815</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h3 id=3D"CostAnalysis-ThirdPartyvsInhouse-DataExtractionandReporting">Data=
+ Extraction and Reporting</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ad=
+15434f-6475-4b91-8f65-b2f5dd0d82db" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p>Year</p></td>
+<td class=3D"confluenceTd">
+<p>Third-Party Cost (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>In-House Cost (Estimated Annual)</p></td>
+<td class=3D"confluenceTd">
+<p>Cumulative Third-Party Cost</p></td>
+<td class=3D"confluenceTd">
+<p>Cumulative In-House Cost</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A3936.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A324,384 - =C2=A350,290</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A3936.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A324,384 - =C2=A350,290</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A3936.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,477 - =C2=A318,953</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A31,872.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A330,861 - =C2=A369,243</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A3936.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,477 - =C2=A318,953</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A32,808.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A337,338 - =C2=A388,196</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A3936.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,477 - =C2=A318,953</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A33,744.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A343,815 - =C2=A3107,149</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>5</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A3936.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A36,477 - =C2=A318,953</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A30 - =C2=A34,680.00</p></td>
+<td class=3D"confluenceTd">
+<p>=C2=A350,292 - =C2=A3126,102</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h1 id=3D"CostAnalysis-ThirdPartyvsInhouse-5.Conclusion">5. Conclusion</h1>
+<p>Utilising third-party providers appears more financially viable for paym=
+ents, notifications, and data reporting due to significantly lower initial =
+and generally more predictable ongoing costs compared to in-house developme=
+nt. While in-house development offers full control and customisation, it de=
+mands substantial upfront investment in development time (requiring 1-2 sof=
+tware developers for initial setup, potentially exceeding =C2=A3100,000 in =
+the first year), along with the ongoing burden of infrastructure, software =
+licensing, and critical security and compliance responsibilities. Third-par=
+ty services, conversely, are typically built for high scalability and offlo=
+ad much of this operational overhead, though their costs can increase with =
+very high usage volumes.</p>
+<p></p>
+<p></p>
+<p>**Update: 07/08/2025 Section added at end to explore third party usage f=
+or Language Translation.</p>
+<p></p>
+<h1 id=3D"CostAnalysis-ThirdPartyvsInhouse-6.NewSection:Translation">6. New=
+ Section: Translation</h1>
+<p></p>
+<p>This section analyses the cost of using a third-party translation servic=
+e compared to building an in-house solution.</p>
+<p></p>
+<p><strong>a. Third-Party Translation Service (e.g., Google, Amazon, Micros=
+oft</strong>)</p>
+<p></p>
+<ul>
+<li>
+<p><strong>Estimated Annual Cost:</strong> For a medium to large event, ass=
+ume average of 10 million characters are translated per year.</p>
+<ul>
+<li>
+<p><strong>Google Translate:</strong> After the free tier of 500,000 charac=
+ters per month, the cost is $20 per million characters. A yearly usage of 1=
+0 million characters would be approximately <strong>=C2=A3161.20 per year</=
+strong>.</p></li>
+<li>
+<p><strong>Amazon Translate:</strong> After the free tier of 2 million char=
+acters per month for 12 months, the cost is $15 per million characters. A y=
+early usage of 10 million characters would be approximately <strong>=C2=A38=
+0.60 per year</strong>.</p></li>
+<li>
+<p><strong>Microsoft Translator:</strong> After the free tier of 2 million =
+characters per month, the cost is $10 per million characters. A yearly usag=
+e of 10 million characters would be approximately <strong>=C2=A30</strong> =
+(free tier covers 24 million characters per year).</p></li>
+</ul></li>
+</ul>
+<p></p>
+<p><strong>b. In-house Development Costs</strong></p>
+<p></p>
+<ul>
+<li>
+<p><strong>Development Cost:</strong> Building an in-house translation engi=
+ne is a significant undertaking. The initial development would require a da=
+ta science team and specialist machine learning expertise. This could cost =
+tens of thousands of pounds to build and train a model from scratch.</p></l=
+i>
+<li>
+<p><strong>Maintenance &amp; Updates:</strong> The model would require cont=
+inuous training and updates to maintain accuracy, which incurs ongoing oper=
+ational costs.</p></li>
+</ul>
+<p></p>
+<p><strong>7. Conclusion for Translation only</strong></p>
+<p></p>
+<ul>
+<li>
+<p>Based on the analysis, using a third-party translation service is the mo=
+st financially viable option. The per-character cost from providers is low,=
+ and their generous free tiers would likely cover the majority of our usage=
+ for smaller to medium-sized events.</p></li>
+<li>
+<p>The initial and ongoing costs of developing and maintaining an in-house =
+solution far outweigh the pay-as-you-go costs of a third-party API.</p></li=
+>
+<li>
+<p>Of the providers, <strong>Microsoft Translator</strong> stands out as th=
+e most cost-effective option, as its large free tier would cover a signific=
+ant amount of usage with minimal to no ongoing cost.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_4_1592867373.1755951109038--
